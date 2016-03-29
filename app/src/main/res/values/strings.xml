@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TestPageParser</string>
+
+    <string name="item1">football.ua</string>
+    <string name="item2">habrahabr.ru</string>
+    <string name="item3">dou.ua</string>
+    <string name="item4">bigmir.net</string>
+    <string name="menu_item_sources">Sources</string>
+    <string name="menu_item_time">Time</string>
+</resources>

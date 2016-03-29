@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Time to Update">
+        <CheckBoxPreference
+            android:key="notif1"
+            android:summary=""
+            android:title="dou">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="notif2"
+            android:summary=""
+            android:title="habrahabr">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="notif3"
+            android:summary=""
+            android:title="football">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="notif3"
+            android:summary=""
+            android:title="bigmir">
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

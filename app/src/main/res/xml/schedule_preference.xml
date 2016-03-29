@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="Time to Update">
+
+        <CheckBoxPreference
+            android:key="notif1"
+            android:summary="Set notifications"
+            android:title="9.00 a.m">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="notif2"
+            android:summary="Set notifications"
+            android:title="12.00 am">
+        </CheckBoxPreference>
+
+        <CheckBoxPreference
+            android:key="notif3"
+            android:summary="Set notifications"
+            android:title="6.00 p.m">
+        </CheckBoxPreference>
+
+        <EditTextPreference
+            android:key="Hours"
+            android:title="Hours:"
+            android:defaultValue="0"
+            android:inputType="number">
+        </EditTextPreference>
+
+        <EditTextPreference
+            android:key="Minutes"
+            android:title="Minutes:"
+            android:defaultValue="0"
+            android:inputType="number">
+        </EditTextPreference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
