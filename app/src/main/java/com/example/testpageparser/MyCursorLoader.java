@@ -15,13 +15,17 @@ public class MyCursorLoader extends CursorLoader
     {
         super(context);
         contentResolver = cr;
-        projection = new String[] { "rowid " + DatabaseHelper.ID_COLUMN, DatabaseHelper.TITLE_COLUMN, DatabaseHelper.CONTENT_COLUMN, DatabaseHelper.IMG_URL_COLUMN };
+        projection = new String[] { "rowid " + DatabaseHelper.ID_COLUMN, DatabaseHelper.TITLE_COLUMN,
+                DatabaseHelper.CONTENT_COLUMN, DatabaseHelper.IMG_URL_COLUMN };
     }
 
     @Override
     public Cursor loadInBackground() {
-        Cursor cursor = contentResolver.query(Uri.parse("content://com.example.testpageparser.newsprovider/news"), projection,
-                null, null, null);
+        Cursor cursor = contentResolver.query(Uri.parse("content://com.example.testpageparser.newsprovider/news"),
+                projection, null, null, null);
         return cursor;
     }
 }
+
+
+
